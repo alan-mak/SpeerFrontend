@@ -2,6 +2,9 @@ import React from 'react';
 
 import './nav.scss'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 export default function Nav () {
 
   const navItem = [{
@@ -18,7 +21,7 @@ export default function Nav () {
 
   return (
     <div className="burger">
-      EXP | CON
+      <FontAwesomeIcon icon={faBars} /> EXP | CON
       <ul>
         {navItem.map(item => <li>
           <a href={item.path}>{item.content}</a>
