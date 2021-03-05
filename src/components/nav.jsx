@@ -22,15 +22,16 @@ export default function Nav () {
 
   return (
     <div className="burger">
-      <FontAwesomeIcon icon={faBars}  onClick={()=> {
-        menu ? (setMenu(false)): (
-          setMenu(true)
-          )
-      }}/> EXP | CON
+      <div className={menu ? 'show' : 'hide'}>
+        <FontAwesomeIcon icon={faBars}  onClick={()=> {
+          menu ? (setMenu(false)): (setMenu(true))
+        }} /> EXP | CON
+      </div>
       <ul className={menu ? 'ul--show': 'ul--hide'}>
         {navItem.map(item => <li>
           <a href={item.path}>{item.content}</a>
           </li>)}
+      <div className="circle" />
       </ul>
     </div>
   )

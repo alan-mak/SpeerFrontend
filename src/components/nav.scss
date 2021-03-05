@@ -1,21 +1,48 @@
+@import '../styles/variables.scss';
+
 .burger {
   position: absolute;
   left: 3rem;
   top: 3rem;
+  list-style-type: none;
+  font-size: 1.75rem;
+  display: flex;
+  flex-direction: column;
   
-  ul {
-    padding: 0;
+  .show{
+    color: $secondary-colour;
+  }
+  .hide {
+    color: $primary-colour;
   }
 
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
   .ul--hide{
     display: none;
   }
   .ul--show{
-    display: block;
-    list-style-type: none;
     li {
       display: flex;
-      margin-top: 1rem;
+      a {
+        color: $secondary-colour;
+        text-decoration: none;
+        margin-top: 1rem;
+      }
+    }
+    .circle {
+      position:absolute;
+      top: -250px;
+      left: -250px;
+      z-index:-1;
+      display: block;
+      border-radius: 50%;
+      background: $primary-colour;
+      height: 500px;
+      width: 500px;
     }
   }
 }
