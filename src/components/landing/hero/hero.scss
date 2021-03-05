@@ -8,10 +8,9 @@
 
 .carousel .slide{
   background: $primary-colour;
-  // height: 50%;
 }
 
 .carousel li img{
-  height: 1080px;
+  height: $screenY;
   width: 100%
 }

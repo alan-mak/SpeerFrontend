@@ -1,0 +1,9 @@
+@import '../../../styles/variables.scss';
+
+#red {
+  background: red;
+  position:absolute;
+  top: $screenY;
+  width: 100%;
+  height: $screenY;
+}
