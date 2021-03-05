@@ -1,5 +1,21 @@
 .burger {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  left: 3rem;
+  top: 3rem;
+  
+  ul {
+    padding: 0;
+  }
+
+  .ul--hide{
+    display: none;
+  }
+  .ul--show{
+    display: block;
+    list-style-type: none;
+    li {
+      display: flex;
+      margin-top: 1rem;
+    }
+  }
 }
