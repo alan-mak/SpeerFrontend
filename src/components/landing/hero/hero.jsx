@@ -3,9 +3,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './hero.scss'
 import { Carousel } from 'react-responsive-carousel';
 
-import img1 from '../../img/taylor1.jpg';
-import img2 from '../../img/taylor2.jpg';
-import img3 from '../../img/taylor3.png';
+import img1 from '../../../img/taylor1.jpg';
+import img2 from '../../../img/taylor2.jpg';
+import img3 from '../../../img/taylor3.png';
 
 export default function Hero(props) {
 
