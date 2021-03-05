@@ -1,15 +1,28 @@
 .liquid {
-  background-image: linear-gradient(90deg, #AD8482, #A1A383, #A3729B, #62A37B, #896AA3);
+  background-image: linear-gradient(90deg, #E85A80, #FAC140, #50B9B0, #A4D27A, #914A6A);
   background-size: 300%;
   animation: button-animation 5s infinite alternate;
-  height: auto;
+  height: 2rem;
   width: auto;
   padding: 2em 3em;
-  margin: 4em;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   border:none;
-  border-radius: 40%;
+  border-radius: 20px;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 540px;
+  left: 50%;
+  transform: translate(-50%);
+  p {
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  }
 }
 
 @keyframes button-animation {
@@ -21,5 +34,4 @@
 .liquid:focus {
   background-image: liner-gradient(90deg, #F5BBB8, #FCFFCC, #f6f6f6, #99FFC0, #D6A6FF);
   animation: button-animation 5s infinite alternate-reverse;
-  color: #000000;
 }

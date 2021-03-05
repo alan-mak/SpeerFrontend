@@ -12,6 +12,6 @@ export default function Button1(props) {
   }
 
   return (
-    <button className="liquid" onClick={redirect}>TRY IT NOW</button>
+    <button className="liquid" onClick={redirect}><p>TRY IT NOW</p></button>
   )
 }
