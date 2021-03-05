@@ -1,5 +1,17 @@
 @import '../../styles/variables.scss';
+.carousel-root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
 
 .carousel .slide{
   background: $primary-colour;
+  // height: 50%;
+}
+
+.carousel li img{
+  height: 1080px;
+  width: 100%
 }

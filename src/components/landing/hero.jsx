@@ -12,18 +12,15 @@ export default function Hero(props) {
 
 
   return (
-    <Carousel infiniteLoop autoPlay>
+    <Carousel infiniteLoop autoPlay showArrows={false} showThumbs={false} interval={10000} showStatus={false} dynamicHeight={true} stopOnHover={false}>
       <div>
         <img src={img1} alt="Taylor 1"/>
-        <p className="legend">Taylor 1</p>
       </div>
       <div>
         <img src={img2} alt="Taylor 2"/>
-        <p className="legend">Taylor 2</p>
       </div>
       <div>
         <img src={img3} alt="Taylor 3"/>
-        <p className="legend">Taylor 3</p>
       </div>
     </Carousel>
   )
