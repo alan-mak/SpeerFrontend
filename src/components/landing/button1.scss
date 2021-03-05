@@ -1,0 +1,25 @@
+.liquid {
+  background-image: linear-gradient(90deg, #AD8482, #A1A383, #A3729B, #62A37B, #896AA3);
+  background-size: 300%;
+  animation: button-animation 5s infinite alternate;
+  height: auto;
+  width: auto;
+  padding: 2em 3em;
+  margin: 4em;
+  font-size: 1.5rem;
+  border:none;
+  border-radius: 40%;
+  color: #ffffff;
+}
+
+@keyframes button-animation {
+  0% {background-position: left;}
+  100% {background-position: right;}
+}
+
+.liquid:hover,
+.liquid:focus {
+  background-image: liner-gradient(90deg, #F5BBB8, #FCFFCC, #f6f6f6, #99FFC0, #D6A6FF);
+  animation: button-animation 5s infinite alternate-reverse;
+  color: #000000;
+}

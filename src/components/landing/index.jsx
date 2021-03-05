@@ -1,10 +1,12 @@
 import React from 'react'
 
-import Nav from './nav'
+import Button1 from './button1'
 
 export default function Landing(props) {
 
   return(
-    <Nav />
+    <>
+      <Button1 />
+    </>
   )
 }
