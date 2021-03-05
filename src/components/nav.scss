@@ -35,14 +35,14 @@
     }
     .circle {
       position:absolute;
-      top: -250px;
-      left: -250px;
+      top: -3rem;
+      left: -3rem;
       z-index:-1;
       display: block;
-      border-radius: 50%;
+      border-bottom-right-radius: 100%;
       background: $primary-colour;
-      height: 500px;
-      width: 500px;
+      height: 300px;
+      width: 300px;
     }
   }
 }
