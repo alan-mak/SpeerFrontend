@@ -5,9 +5,9 @@ import { Carousel } from 'react-responsive-carousel';
 
 import Button1 from '../button1'
 
-import img1 from '../../../img/taylor1.jpg';
-import img2 from '../../../img/taylor2.jpg';
-import img3 from '../../../img/taylor3.png';
+import img1 from '../../../img/image1.png';
+import img2 from '../../../img/image2.png';
+import img3 from '../../../img/image3.png';
 
 export default function Hero(props) {
 
@@ -20,13 +20,13 @@ export default function Hero(props) {
       </div>
       <Carousel infiniteLoop autoPlay showArrows={false} showThumbs=  {false} interval={10000} showStatus={false} dynamicHeight={true}  stopOnHover={false}>
         <div>
-          <img src={img1} alt="Taylor 1"/>
+          <img src={img1} alt="image 1"/>
         </div>
         <div>
-          <img src={img2} alt="Taylor 2"/>
+          <img src={img2} alt="image 2"/>
         </div>
         <div>
-          <img src={img3} alt="Taylor 3"/>
+          <img src={img3} alt="image 3"/>
         </div>
       </Carousel>
     </div>
