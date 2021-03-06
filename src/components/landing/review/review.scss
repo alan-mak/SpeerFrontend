@@ -30,20 +30,23 @@
     }
     .content {
       display: flex;
-      .sub1 {
+      .sub {
         display: flex;
-        flex-direction: column;
-        align-items: start;
-      }
-      .sub2 {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-      }
-      .sub3 {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
+        .ARTIST {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+        .PRODUCER {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+        .MUSIC {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
       }
     }
   }

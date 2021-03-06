@@ -24,8 +24,8 @@ export default function Sound(prop) {
   const renderButton = () => {
     return(
       <>
-        <img src={speakerLeft} className="speakerLeft" onClick={playPause}/>
-        <img src={speakerRight} className="speakerRight" onClick={playPause}/>
+        <img src={speakerLeft} alt="Left Speaker"className="speakerLeft" onClick={playPause}/>
+        <img src={speakerRight} alt="Right Speaker" className="speakerRight" onClick={playPause}/>
       </>
     )
   }
