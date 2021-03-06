@@ -9,11 +9,11 @@ export default function Nav () {
   const [menu, setMenu] = useState(false);
 
   const navItem = [{
-    path:"/perks",
-    content:"PERKS"
-  },{
     path:"/pricing",
     content:"PRICING"
+  },{
+    path:"/perks",
+    content:"PERKS"
   }, {
     path:"/",
     content:"WHAT IS IT"
