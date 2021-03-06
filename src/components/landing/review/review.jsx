@@ -15,7 +15,7 @@ export default function Review(props) {
     <div id="review">
       <Nav colour="#5EE2E9" />
       <div className="button2-try">
-        <Button2 message={"TRY IT NOW"} />
+        <Button2 message={"TRY IT NOW"} path="pricing"/>
       </div>
       <div className="speakers">
         <img src={speaker} alt="Blue speaker"/>
