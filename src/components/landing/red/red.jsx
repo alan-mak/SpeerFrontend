@@ -9,8 +9,12 @@ export default function Red(props) {
   return(
     <div id='red'>
       <Nav/>
-      <Button1 />
-      <Button2 />
+      <div id="button1-try">
+        <Button1 />
+      </div>
+      <div id="button2-demo">
+        <Button2 />
+      </div>
     </div>
   )
 }
