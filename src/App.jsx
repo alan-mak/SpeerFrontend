@@ -1,14 +1,14 @@
-import './App.css';
-import Nav from './components/nav'
+import React from 'react';
+
 import Landing from './components/landing';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import './App.scss';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Nav colour='white'/>
+      <div className="App">        
         <Switch>
           <Route path='/pricing'>
             Coming Soon...
@@ -21,7 +21,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </Router >
   );
 }
 

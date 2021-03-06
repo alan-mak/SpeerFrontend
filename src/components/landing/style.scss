@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+#landing-foot {
+  font-size: 1.5em;
+  background: #665DD1;
+  width: 100%;
+  position: absolute;
+  top: (5 * $screenY);
+}
