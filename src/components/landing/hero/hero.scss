@@ -14,3 +14,10 @@
   height: $screenY;
   width: 100%
 }
+
+#hero #hero-liquid {
+  position: absolute;
+  top: 540px;
+  left: 50%;
+  transform: translate(-50%);
+}
