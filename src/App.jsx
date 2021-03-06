@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Landing from './components/landing';
+import Pricing from './components/pricing'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.scss';
@@ -11,9 +12,9 @@ function App() {
       <div className="App">        
         <Switch>
           <Route path='/pricing'>
-            Coming Soon...
+            <Pricing />
           </Route>
-          <Route path='/perks'>
+          <Route path='/payments'>
             Coming Soon...
           </Route>
           <Route path='/'>

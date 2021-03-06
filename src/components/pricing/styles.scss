@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+
+#pricing {
+  background: $primary-colour;
+  height: $screenY;
+  z-index: -1;
+  color: $secondary-colour;
+  .writeUp {
+    font-size: 1.5rem;
+    text-align: left;
+    .section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 2em;
+      .BASIC {
+        h3{
+          color: red;
+        }
+      }
+      .ADVANCED{
+        h3{
+          color: #FAB33E;
+        }
+      }
+      .PRO{
+        h3{
+          color: #5EE2E9;
+        }
+      }
+    }
+  }
+}
