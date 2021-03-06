@@ -36,21 +36,25 @@
     p {
       display: flex;
       justify-content: start;
+      width: 25rem;
     }
     .content {
       display: flex;
       justify-content: space-between;
       #sub1 {
+        padding-right: 2em;
         h3{          
           color: red;
         }
       }
       #sub2 {
+        padding-right: 2em;
         h3{          
           color: #5EE2E9;
         }
       }
       #sub3 {
+        padding-right: 2em;
         h3{          
           color: #FAB33E;
         }
