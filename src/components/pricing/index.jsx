@@ -8,6 +8,9 @@ export default function Pricing(props) {
   return(
     <div id="pricing">
       <Black />
+      <div className="pricing-foot">
+        <Footer/>
+      </div>
     </div>
   )
 }

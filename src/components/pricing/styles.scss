@@ -18,9 +18,7 @@
       flex-direction: row;
       align-items: center;
       justify-content: left;
-      .button2-pricing{
-        padding:1em;
-      }
+      padding-bottom: 3rem;
       .BASIC {
         h3{
           color: red;
@@ -36,6 +34,11 @@
           color: #5EE2E9;
         }
       }
+    }
+  }
+  .pricing-foot {
+    #foot{
+      position: relative;
     }
   }
 }
