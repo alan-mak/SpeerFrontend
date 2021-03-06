@@ -8,7 +8,7 @@ export default function Button2(props) {
   function onMouseMove(event) {
     setMouse({ x: event.nativeEvent.offsetX, y: event.nativeEvent.offsetY });
   }
-  const angle = (Math.atan(mouse.y / mouse.x) * 180) / Math.PI
+  const angle = (Math.atan((mouse.y - 38) / (mouse.x - 112)) * 180) / Math.PI
   const sty = {background: `linear-gradient(${angle}deg, #fff, #000)`}
 
   return(
