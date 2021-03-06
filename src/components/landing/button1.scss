@@ -30,4 +30,5 @@
 .liquid:focus {
   background-image: liner-gradient(90deg, #F5BBB8, #FCFFCC, #f6f6f6, #99FFC0, #D6A6FF);
   animation: button-animation 5s infinite alternate-reverse;
+  outline: none;
 }
