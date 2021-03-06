@@ -8,12 +8,19 @@
   .writeUp {
     font-size: 1.5rem;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5%;
     .section {
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
-      padding: 2em;
+      justify-content: left;
+      .button2-pricing{
+        padding:1em;
+      }
       .BASIC {
         h3{
           color: red;

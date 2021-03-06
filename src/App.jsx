@@ -15,7 +15,7 @@ function App() {
             <Pricing />
           </Route>
           <Route path='/payments'>
-            Coming Soon...
+            Payments Coming Soon...
           </Route>
           <Route path='/'>
             <Landing />

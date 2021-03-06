@@ -13,10 +13,14 @@ export default function Black(props) {
     <div id="black">
       <Nav colour='white' />
       <div className="writeUp">
+        <div className="introduction">
+          <h1>PRICING</h1>
+          <p>Test our app today! Choose from three subscription based payment models.</p>
+        </div>
         <div className="section">
           {price.map(obj => {
             return (
-              <div className={obj.plan} style={{padding: "2em"}}>
+              <div className={obj.plan} style={{paddingRight: "4em"}}>
                 <h3 style={{borderBottom: "solid"}}>{obj.plan}</h3>
                 <h3>{obj.time}</h3>
                 <h1>{obj.price}</h1>
@@ -30,7 +34,7 @@ export default function Black(props) {
                     <li>Features</li>
                   </ul>
                 </div>
-                <Button2 message="SELECT" path="payments"/>
+                <Button2 message="SELECT" path="payments" className="button2-pricing"/>
               </div>
             )
           })}
