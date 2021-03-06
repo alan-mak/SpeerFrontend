@@ -8,8 +8,8 @@ import './red.scss'
 
 export default function Red(props) {
   return(
-    <div id='red'>
-      <Nav/>
+    <div id="red">
+      <Nav colour="red"/>
       <div className="button1-try">
         <Button1 />
       </div>

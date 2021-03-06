@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav/>
+        <Nav colour='white'/>
         <Switch>
           <Route path='/pricing'>
             Coming Soon...

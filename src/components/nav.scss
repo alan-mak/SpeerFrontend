@@ -10,10 +10,10 @@
   flex-direction: column;
   
   .show{
-    color: $secondary-colour;
+    color: $primary-colour;
   }
   .hide {
-    color: $primary-colour;
+    color: $secondary-colour;
   }
 
   ul {
@@ -42,7 +42,7 @@
       z-index:-1;
       display: block;
       border-bottom-right-radius: 100%;
-      background: $primary-colour;
+      background: $menu-colour;
       height: 300px;
       width: 300px;
     }
