@@ -16,7 +16,7 @@
 
   .button2-demo {
     position: absolute;
-    left: 20%;
+    left: $red-lineup;
     top: 50%;
   }
 
@@ -30,6 +30,24 @@
       position: absolute;
       top: 45%;
       right: 5%;
+    }
+  }
+  
+  .speaker:hover {
+    cursor:url(../../../img/click.png), pointer;
+  }
+
+  .writeUp {
+    font-size: 2em;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    top: 30%;
+    left: $red-lineup;
+    h1 {
+      margin: 0;
     }
   }
 }

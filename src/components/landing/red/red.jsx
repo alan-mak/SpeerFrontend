@@ -20,6 +20,8 @@ export default function Red(props) {
         <Sound />
       </div>
       <div className="writeUp">
+        <h1 style={{color:"white"}}>SUPERIOR SOUND</h1>
+        <p>Experience live versions of your favourite songs</p>
       </div>
     </div>
   )
