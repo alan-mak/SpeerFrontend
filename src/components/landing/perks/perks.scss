@@ -1,0 +1,10 @@
+@import '../../../styles/variables.scss';
+
+#perks {
+  background: black;
+  position:absolute;
+  top: (2 * $screenY);
+  width: 100%;
+  height: $screenY;
+  z-index: -2;
+}

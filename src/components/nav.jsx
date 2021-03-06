@@ -22,16 +22,23 @@ export default function Nav(props) {
 
   return (
     <div className="burger">
-      <div className={menu ? 'show' : 'hide'} style={ menu? {color:`${props.colour}`} : {color:`white`}}>
+      <div 
+        className={menu ? 'show' : 'hide'}
+        style={ menu? {color:`${props.colour}`} : {color:`white`}}
+      >
         <FontAwesomeIcon icon={faBars}  onClick={()=> {
           menu ? (setMenu(false)): (setMenu(true))
         }} /> EXP | CON
       </div>
-      <ul className={menu ? 'ul--show': 'ul--hide'}>
+      <ul
+        className={menu ? 'ul--show': 'ul--hide'}
+      >
         {navItem.map(item => <li>
           <a href={item.path}>{item.content}</a>
           </li>)}
-      <div className="circle" />
+      <div className="circle" 
+        style={ menu? {background:`${props.cirColour}`} : {background:`black`}}
+      />
       </ul>
     </div>
   )

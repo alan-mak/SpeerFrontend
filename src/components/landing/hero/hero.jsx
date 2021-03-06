@@ -11,8 +11,6 @@ import img3 from '../../../img/image3.png';
 
 export default function Hero(props) {
 
-
-
   return (
     <div id="hero">
       <div className="hero-liquid">
