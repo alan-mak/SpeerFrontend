@@ -13,7 +13,7 @@ export default function Button2(props) {
 
   return(
     <>
-      <button className="hov" onMouseMove={onMouseMove} style={sty}>SEE DEMO</button>
+      <button className="hov" onMouseMove={onMouseMove} style={sty}>{props.message}</button>
     </>
   )
 }

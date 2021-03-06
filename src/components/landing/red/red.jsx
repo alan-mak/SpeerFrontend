@@ -14,7 +14,7 @@ export default function Red(props) {
         <Button1 />
       </div>
       <div className="button2-demo">
-        <Button2 />
+        <Button2 message={'SEE DEMO'}/>
       </div>
       <div className="speaker">
         <Sound />

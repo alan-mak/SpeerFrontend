@@ -3,7 +3,6 @@ import Button1 from '../button1';
 import Nav from '../../nav';
 
 import './perks.scss';
-import '../red/red.scss';
 
 export default function Perks(props) {
   return (

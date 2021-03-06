@@ -2,7 +2,8 @@ import React from 'react';
 
 import Hero from './hero/hero';
 import Red from './red/red';
-import Perks from './perks/perks'
+import Perks from './perks/perks';
+import Review from './review/review';
 
 export default function Landing(props) {
 
@@ -11,6 +12,7 @@ export default function Landing(props) {
       <Hero />
       <Red />
       <Perks />
+      <Review />
     </>
   )
 }
