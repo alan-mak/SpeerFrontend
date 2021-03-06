@@ -19,4 +19,17 @@
     left: 20%;
     top: 50%;
   }
+
+  #speaker {
+    #speakerLeft {
+      position: absolute;
+      top: 25%;
+      right: 25%;
+    }
+    #speakerRight {
+      position: absolute;
+      top: 45%;
+      right: 5%;
+    }
+  }
 }
