@@ -15,7 +15,7 @@ export default function Hero(props) {
 
   return (
     <div id="hero">
-      <div id="hero-liquid">
+      <div className="hero-liquid">
         <Button1 />
       </div>
       <Carousel infiniteLoop autoPlay showArrows={false} showThumbs=  {false} interval={10000} showStatus={false} dynamicHeight={true}  stopOnHover={false}>

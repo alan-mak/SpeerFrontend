@@ -10,14 +10,16 @@ export default function Red(props) {
   return(
     <div id='red'>
       <Nav/>
-      <div id="button1-try">
+      <div className="button1-try">
         <Button1 />
       </div>
-      <div id="button2-demo">
+      <div className="button2-demo">
         <Button2 />
       </div>
-      <div id="speaker">
+      <div className="speaker">
         <Sound />
+      </div>
+      <div className="writeUp">
       </div>
     </div>
   )
