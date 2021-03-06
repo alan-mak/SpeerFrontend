@@ -3,6 +3,8 @@ import React from 'react';
 import { Howl } from 'howler';
 
 import sample from '../../../audio/sample.mp3';
+import speakerLeft from '../../../img/speaker-left.png';
+import speakerRight from '../../../img/speaker-right.png';
 
 export default function Sound(prop) {
   
@@ -18,19 +20,19 @@ export default function Sound(prop) {
     src: [sample],
     onplay: true
   })
+
   const renderButton = () => {
     return(
-      <>
-
-      <button onClick={playPause}>BUTTON2</button>
-
-      </>
+      <div className="red-speaker">
+        <img src={speakerLeft} onClick={playPause}/>
+        <img src={speakerRight} onClick={playPause}/>
+      </div>
     )
   }
 
   return (
     <>
-    {renderButton()}
+      {renderButton()}
     </>
   )
 }
