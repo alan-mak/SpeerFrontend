@@ -8,13 +8,13 @@ To install all the packages run `npm install`
 Run `npm start` to begin
 
 ## Working View
-![Carousel]()
+![Carousel](https://github.com/alan-mak/SpeerFrontend/blob/master/docs/hero.mp4)
 
-![Red]()
+![Red](https://github.com/alan-mak/SpeerFrontend/blob/master/docs/red.mp4)
 
-![Rest]()
+![Rest](https://github.com/alan-mak/SpeerFrontend/blob/master/docs/whole.mp4)
 
-![Pricing]()
+![Pricing](https://github.com/alan-mak/SpeerFrontend/blob/master/docs/pricing.mp4)
 
 ## Tech Stack
 - React 17.0.1
